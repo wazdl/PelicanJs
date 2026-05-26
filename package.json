@@ -1,0 +1,56 @@
+{
+  "name": "@wazdl/pelicanjs",
+  "version": "0.9.855",
+  "description": "A Node.js module to easily integrate a Pelican panel into a Discord bot or any Node.js application. It provides simple and efficient API access to manage users, servers, and features directly from the panel.",
+  "author": "WazdL (https://github.com/wazdl/)",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs",
+    "default": "./dist/index.mjs"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "Just a test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wazdl/pelicanjs.git"
+  },
+  "keywords": [
+    "pelican",
+    "panel",
+    "hosting",
+    "game-server",
+    "discord-bot",
+    "wazdl",
+    "api",
+    "pelican-api",
+    "javascript",
+    "js",
+    "nodejs",
+    "typescript"
+  ],
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+   "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/wazdl/pelicanjs/issues"
+  },
+  "homepage": "https://github.com/wazdl/pelicanjs#readme"
+}
